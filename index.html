@@ -1,11 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
+html_content = """<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>URBAN GLOW - Tienda de Ropa Urbana</title>
 </head>
 <body>
-    
+
+    <!-- Cabecera principal de la página (Slide 5) -->
+    <header>
+        <h1>URBAN GLOW</h1>
+        <p><i>Moda y Estilo Urbano</i></p>
+        
+        <!-- Menú de navegación con hipervínculos (Slide 5 y 9) -->
+        <nav>
+            <a href="#inicio">Inicio</a> | 
+            <a href="#catalogo">Catálogo de Ropa</a> | 
+            <a href="#nosotros">Sobre Nosotros</a> | 
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Contenido principal único de la página (Slide 6 - Solo un <main>) -->
+    <main>
+        
+        <!-- Sección de Bienvenida -->
+        <section id="inicio">
+            <h2>Bienvenido a URBAN GLOW</h2>
+            <p>Somos una marca dedicada a la ropa urbana de alta calidad. Encuentra los mejores buzos, camisetas, chaquetas y pantalones con diseños exclusivos.</p>
+            <p>Para explorar nuestras prendas, <a href="#catalogo">haz clic aquí para ir directo al catálogo</a>.</p>
+        </section>
+
+        <hr>
+
+        <!-- Sección del Catálogo de Productos -->
+        <section id="catalogo">
+            <h2>Catálogo de Ropa</h2>
+
+            <!-- Producto 1 (Agrupado con div - Slide 8) -->
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=400&q=80" alt="Buzo Hoodie Oversize" width="300">
+                <h3>Hoodie Oversize Neon</h3>
+                <p><strong>Descripción:</strong> Buzo holgado de algodón 100% con estampado urbano en la espalda y capucha ajustada.</p>
+                <p><strong>Tallas disponibles:</strong> S, M, L, XL</p>
+                <p><strong>Material:</strong> Algodón peinado</p>
+                <p><strong>Precio:</strong> <span>$149.900 COP</span></p>
+                <p><a href="https://api.whatsapp.com/send?text=Hola,%20quiero%20comprar%20el%20Hoodie%20Oversize%20Neon" target="_blank">Comprar por WhatsApp</a></p>
+            </div>
+
+            <br>
+
+            <!-- Producto 2 (Agrupado con div) -->
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=400&q=80" alt="Chaqueta Biker de Cuero" width="300">
+                <h3>Chaqueta Street Biker</h3>
+                <p><strong>Descripción:</strong> Chaqueta estilo urbano con forro interno térmico, cremalleras metálicas y protección contra el viento.</p>
+                <p><strong>Tallas disponibles:</strong> M, L</p>
+                <p><strong>Material:</strong> Cuero sintético reforzado</p>
+                <p><strong>Precio:</strong> <span>$210.000 COP</span></p>
+                <p><a href="https://api.whatsapp.com/send?text=Hola,%20quiero%20comprar%20la%20Chaqueta%20Street%20Biker" target="_blank">Comprar por WhatsApp</a></p>
+            </div>
+
+            <br>
+
+            <!-- Producto 3 (Agrupado con div) -->
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=400&q=80" alt="Camiseta Grafica Urbana" width="300">
+                <h3>Camiseta Graphic Glow</h3>
+                <p><strong>Descripción:</strong> Camiseta de corte estándar de cuello redondo con estampado gráfico de alta durabilidad.</p>
+                <p><strong>Tallas disponibles:</strong> S, M, L, XL</p>
+                <p><strong>Material:</strong> 100% Algodón de alta densidad</p>
+                <p><strong>Precio:</strong> <span>$69.900 COP</span></p>
+                <p><a href="https://api.whatsapp.com/send?text=Hola,%20quiero%20comprar%20la%20Camiseta%20Graphic%20Glow" target="_blank">Comprar por WhatsApp</a></p>
+            </div>
+
+            <br>
+
+            <!-- Producto 4 (Agrupado con div) -->
+            <div class="producto">
+                <img src="https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=400&q=80" alt="Pantalon Cargo Tactical" width="300">
+                <h3>Pantalón Cargo Tactical</h3>
+                <p><strong>Descripción:</strong> Pantalón cómodo con 6 bolsillos laterales funcionales, ideal para un estilo urbano y resistente.</p>
+                <p><strong>Tallas disponibles:</strong> 28, 30, 32, 34</p>
+                <p><strong>Material:</strong> Tela Drill Ripstop</p>
+                <p><strong>Precio:</strong> <span>$135.000 COP</span></p>
+                <p><a href="https://api.whatsapp.com/send?text=Hola,%20quiero%20comprar%20el%20Pantalon%20Cargo" target="_blank">Comprar por WhatsApp</a></p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Sección Sobre Nosotros -->
+        <section id="nosotros">
+            <h2>Sobre URBAN GLOW</h2>
+            <p>En <span>URBAN GLOW</span> nos apasiona la moda callejera. Nacimos para ofrecer ropa cómoda, duradera y con actitud para el día a día.</p>
+            <p>Puedes conocer más sobre nuestras colecciones visitando nuestro <a href="https://instagram.com" target="_blank">Perfil Oficial de Instagram</a>.</p>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Pie de página (Slide 5) -->
+    <footer>
+        <h3 id="contacto">Contacto e Información</h3>
+        <p><strong>Correo electrónico:</strong> <a href="mailto:contacto@urbanglow.com">contacto@urbanglow.com</a></p>
+        <p><strong>Teléfono:</strong> <a href="tel:+573001234567">+57 300 123 4567</a></p>
+        <p><strong>Nuestras Redes Sociales:</strong> 
+            <a href="https://instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://tiktok.com" target="_blank">TikTok</a>
+        </p>
+        <br>
+        <p>&copy; 2026 URBAN GLOW - Todos los derechos reservados.</p>
+        <p><a href="#inicio">Volver arriba ↑</a></p>
+    </footer>
+
 </body>
 </html>
+"""
+
+with open("index.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+print("FILE_CREATED: index.html")
