@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ARTICLE - Create, Publish, Share</title>
+</head>
+<body>
+
+<!-- aqui va la cabecera con el menu -->
+<header>
+    <h1>A.R.T.I.C.L.E</h1>
+    <p>Create, Publish, Share</p>
+
+    <nav>
+        <ul>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#pages">Pages</a></li>
+            <li><a href="#comments">Comments</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#pluggins">Plug-ins</a></li>
+            <li><a href="#analytics">Analytics</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#users">Users</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- todo lo importante va adentro del main -->
+<main>
+
+    <h2 id="analytics">Analitica del sitio</h2>
+    <p>Aqui abajo esta la tabla con los datos de visitas y acciones de la pagina, saque los datos del wireframe que nos dio el profe</p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Resumen de Analytics 2026</th>
+            </tr>
+            <tr>
+                <th>Dato</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Visitas</td>
+                <td>15,000</td>
+            </tr>
+            <tr>
+                <td>este es el total del año</td>
+            </tr>
+            <tr>
+                <td>Post Edit</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Post Publish</td>
+                <td>50,890</td>
+            </tr>
+            <tr>
+                <td>User Login</td>
+                <td>8,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="tools">Tools pages</h2>
+    <p>lorem ipsum dolor sit amet, esta parte todavia no la termino bien pero va aqui la lista de herramientas &amp; plugins que tiene la pagina</p>
+    <ul>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+    </ul>
+
+    <h2 id="posts">Add New Post</h2>
+    <p>formulario para subir un post nuevo, esto lo copie del wireframe de "Add New Post"</p>
+
+    <!-- el formulario para crear un post nuevo -->
+    <form action="#" method="post">
+
+        <label for="titulo">Titulo del post:</label><br>
+        <input type="text" id="titulo" name="titulo" placeholder="How to write better blogs for your website"><br><br>
+
+        <label for="categoria">Categoria:</label><br>
+        <select id="categoria" name="categoria">
+            <option value="tools">Tools</option>
+            <option value="cms">CMS</option>
+            <option value="marketing">Marketing</option>
+            <option value="otros">Otros</option>
+        </select><br><br>
+
+        <label for="contenido">Contenido:</label><br>
+        <textarea id="contenido" name="contenido" rows="5" cols="40">Blog aware is essential tool for marketing it case of every kind of brand...</textarea><br><br>
+
+        <label for="foto">Subir imagen:</label>
+        <input type="file" id="foto" name="foto"><br><br>
+
+        <button type="submit">Publish</button>
+
+    </form>
+
+    <h2 id="users">Sign Up</h2>
+    <p>este es el form de registro que sale en la primera pantalla &lt;-- ese es el signo de menor que jaja</p>
+
+    <form action="#" method="post">
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass"><br><br>
+
+        <button type="submit">Sign Up</button>
+
+    </form>
+
+</main>
+
+<!-- el pie de pagina con los datos del autor -->
+<footer>
+    <p>Hecho por: [juan david bedoya builes ]</p>
+</footer>
+
+</body>
+</html>
