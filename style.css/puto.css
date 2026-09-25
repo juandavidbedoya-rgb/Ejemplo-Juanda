@@ -1,0 +1,95 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    margin: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #00ff99;
+}
+
+/* Contenido */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #111;
+}
+
+/* Productos */
+.producto {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.producto img {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    color: #111;
+}
+
+.producto a {
+    background-color: #111;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.producto a:hover {
+    background-color: #00aa66;
+}
+
+/* Pie de página */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #00ff99;
+    text-decoration: none;
+}

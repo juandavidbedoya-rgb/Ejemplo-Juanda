@@ -1,0 +1,140 @@
+/* ==========================================================
+   REGULA UNIVERSAL Y BUENAS PRÁCTICAS (Slide 4)
+   Asegura que el ancho declarado incluya padding y border.
+   ========================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333333;
+    padding: 20px;
+}
+
+/* ==========================================================
+   SECCIÓN 1: CABECERA (<header>) - Aplicación de 4 capas (Slide 8)
+   ========================================================== */
+header {
+    /* 1. Content: Ancho máximo */
+    max-width: 900px;
+    
+    /* 2. Margin: Espacio transparente exterior y centrado horizontal (Shorthand) */
+    margin: 40px auto; 
+    
+    /* 3. Padding: Aire interno (Arriba/Abajo: 25px, Izquierda/Derecha: 20px) */
+    padding: 50px 40px; 
+    
+    /* 4. Border: Límite visible */
+    border: 3px solid #1c5c9c; 
+    
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header nav a {
+    color: #1c5c9c;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================
+   ESTRUCTURA PRINCIPAL
+   ========================================================== */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 25px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+/* ==========================================================
+   SECCIÓN 2: TARJETAS DE PRODUCTOS (.producto) - Aplicación de 4 capas (Slide 8)
+   ========================================================== */
+.producto {
+    /* 1. Content: Ancho del contenido */
+    max-width: 450px; 
+    
+    /* 2. Margin: Separación vertical entre tarjetas y centrado (Shorthand) */
+    margin: 30px auto; 
+    
+    /* 3. Padding: Aire interno alrededor de la imagen y texto */
+    padding: 20px; 
+    
+    /* 4. Border: Límite visible del producto */
+    border: 2px solid #1c5c9c; 
+    
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #eeeeee;
+}
+
+.producto h3 {
+    color: #1c5c9c;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    margin: 8px 0;
+}
+
+.producto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px; /* Padding interno del botón */
+    background-color: #25d366;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.producto a:hover {
+    background-color: #1eb954;
+}
+
+/* ==========================================================
+   PIE DE PÁGINA (<footer>)
+   ========================================================== */
+footer {
+    max-width: 900px;
+    margin: 30px auto 10px auto;
+    padding: 25px;
+    border: 2px solid #1c5c9c;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer a {
+    color: #1c5c9c;
+}
